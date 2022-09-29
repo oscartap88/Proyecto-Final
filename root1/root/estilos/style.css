@@ -1,0 +1,378 @@
+/*reseteo de css*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(1,1,1);
+    background: linear-gradient(to bottom, rgba(1,1,1,1) 0%, rgba(12,12,23,1) 35%, rgba(4,21,24,1) 100%);
+}
+
+.texto-principal{
+    text-align: center;
+    font-weight: lighter;
+    font-size: x-large;
+    color: #ffffff ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.secundario{
+    border: solid 1px #ffffff;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+.texto-secundario{
+    text-align: center;
+    font-weight: lighter;
+    font-size: xx-large;
+    color: #ffffff ;
+    letter-spacing: 0.3em;
+}
+
+.texto-terciario{
+    text-align: center;
+    font-weight: lighter;
+    font-size: x-large;
+    color: #ffffff ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.tituloSlogan{
+font-family: Dosis,Arial,sans-serif;
+margin: 0;
+position: relative;
+font-size: 20px;
+letter-spacing: 0.2em;
+font-weight: 400;
+text-transform: uppercase;
+line-height: 1.8;
+opacity: .9;
+}
+.footer-texto{
+    margin-top: 5%;
+    font-size: large;
+    margin-left: 25%;
+    color: #ffffff ;
+    font-weight: lighter;
+}
+.footer-texto-dos{
+    font-size: large;
+    margin-left: 25%;
+    color: #ffffff ;
+    font-weight: lighter;
+}
+.containers{
+    width: 100%;
+    height: 430px;
+    display:flex;
+    flex-wrap:wrap;
+    overflow: hidden;
+    justify-content: center;
+    margin: auto;
+}
+.containers .card{
+    width: 330px;
+    height: 430px;
+    margin:0 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px #857878;
+    text-align: center;
+    transition: all 0.25s;
+}
+.containers .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px #857878;
+}
+.containers .card img{
+    width: 330px;
+    height: 220px;
+}
+.containers .card h4{
+    font-weight: 600;
+}
+.containers .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.carousel-img{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.img-logitos{
+    width: 10%;
+}
+
+.reme-uno{
+    width: 40%;
+}
+.dise-uno{
+    width: 50%;
+    height: 750px;
+}
+.reme-nar{
+    width: 60%;
+    height: 300px;
+    
+    
+}
+.reme-dos{
+    width: 60%;
+    height: 300px;
+    
+}
+.footer-tres{
+    text-align: right;
+    color: #ffffff ;
+}
+.img-redes{
+    width: 20%;
+}
+/***********CONTACTO************/
+
+.contacto{
+    margin-left: 100px;
+}
+.contacto-titulo{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.contacto-p{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.contacto-n{
+    margin-bottom: 30px;
+}
+.contacto-e{
+    margin-bottom: 30px;
+}
+.contacto-t{
+    margin-bottom: 30px;
+}
+.contacto-enviar{
+    margin-bottom: 20px;
+}
+.nuestra-ubicacion{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.mapa{
+    margin-top: 100px;
+    margin-bottom: 100px;   
+}
+.mapa iframe{
+    margin-left: -350px;
+}
+.nuestr-ubicacion-div h2{
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.nuestr-ubicacion-div p{
+    margin-left: 110px;  
+}
+
+/*************** Quienes Somos ***********/
+
+.animate__animated.animate__bounceInLeft{
+    --animate-duration: 4s;
+}
+.animate__animated .animate__zoomInUp{
+    --animate-duration: 4s;
+}
+.nosotros{
+    margin: 15% 0;
+    color: #ffffff ;
+    font-weight: lighter;
+    font-size: x-large;
+}
+.seccion-nosotros{
+    margin:auto;
+    width: 80%;
+    color: #ffffff ;
+    font-weight: lighter;
+    font-size: x-large;
+}
+.seccion-nosotros-principal h1{
+    margin-top:10%;
+    display:inline-block;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: initial;
+    margin-bottom: 10%;
+}
+.seccion-nosotros-principal-n{
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+strong{
+    margin-right: 1%;
+    font-size: 23px;
+}
+
+.seccion-nosotros-principal-p{
+    margin-left: 3%;
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.seccion-nosotros-mision{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    margin-top: 15%;  
+    margin-bottom: 15%;
+    column-width: 100px;
+    color: #ffffff ;
+    font-weight: lighter;
+    font-size: x-large;
+}
+.seccion-nosotros-mision-titulo{
+    text-align: center ;
+    margin-bottom: 5%;
+}
+.seccion-nosotros-mision-p{
+    text-align: center ;
+    font-size: 20px;
+}
+
+/*************Nuestro Trabajo**************/
+.trabajo-titulo{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+.trabajo{
+    width: 90%;
+    margin-bottom: 200px ;
+    margin-top: 100px;
+    
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template: 1200px, 300px;
+
+    grid-template-areas: 
+    "foto-uno foto-uno foto-uno foto-uno foto-uno foto-uno foto-uno foto-uno foto-uno foto-uno"
+    "foto-dos foto-tres foto-cuatro foto-cinco foto-seis foto-siete foto-ocho foto-nueve foto-diez foto-once";
+}
+.foto-uno{
+    grid-area: foto-uno;
+    margin-bottom: 50px;
+}
+.foto-dos{
+    grid-area: foto-dos;
+}
+.foto-tres{
+    grid-area: foto-tres;
+}
+.foto-cuatro{
+    grid-area: foto-cuatro;
+}
+.foto-cinco{
+    grid-area: foto-cinco;
+}
+.foto-seis{
+    grid-area: foto-seis;
+}
+.foto-siete{
+    grid-area: foto-siete;
+}
+.foto-ocho{
+    grid-area: foto-ocho;
+}
+.foto-nueve{
+    grid-area: foto-nueve;
+}
+.foto-diez{
+    grid-area: foto-diez;
+}
+.foto-once{
+    grid-area: foto-once;
+}
+.uno{
+    align-items: center;
+    width: 70%;
+    margin-left: 250px;
+}
+.dos{
+    width: 100%;
+}
+.tres{
+    width: 100%;
+}
+.cuatro{
+    width: 110%;
+}
+.cinco{
+    width: 110%;
+}
+.seis{
+    width: 100%;
+}
+.siete{
+    width: 100%;
+}
+.ocho{
+    width: 70%;
+}
+.nueve{
+    width: 100%;
+}
+.diez{
+    width: 100%;
+}
+.once{
+    width: 200%;
+}
+/*************PRODUCTOS*****************/
+
+.productos h1{
+    margin-left: 8%;
+    margin-top: 5%;
+    font-size: 35px;
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+.productos p{
+    margin-left: 8%;
+    font-size: 20px;
+}
+.productos h2{
+    margin-left: 8%;
+    margin-top: 5%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+.lista-productos{
+    margin-left: 8%;
+}
+.lista-productos-li{
+    margin-bottom: 2%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.gorra{
+    display: inline;
+
+}
+.set{
+    display: inline;
+}
