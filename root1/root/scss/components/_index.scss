@@ -1,0 +1,105 @@
+.tituloSlogan{
+    font-family: Dosis,Arial,sans-serif;
+    margin: 0;
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.8;
+    opacity: .9;
+    }
+
+.containers{
+    width: 100%;
+    height: 430px;
+    display:flex;
+    flex-wrap:wrap;
+    overflow: hidden;
+    justify-content: center;
+    margin: auto;
+    .card{
+        width: 330px;
+    height: 430px;
+    margin:0 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px #857878;
+    text-align: center;
+    transition: all 0.25s;
+
+    &:hover{transform: translateY(-15px);
+    box-shadow: 0 12px 16px #857878;
+            }
+        img{
+            width: 320px;
+            height: 220px;
+            h4{
+                font-weight: 600;
+                p{
+                    padding: 0 1rem;
+                    font-size: 16px;
+                    font-weight: 300;
+                    
+                }
+            }
+        }
+    }
+}
+
+.container{
+    .texto-principal{
+        text-align: center;
+        font-weight: lighter;
+        font-size: x-large;
+        color: #ffffff ;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+.container{
+    .secundario{
+        border: solid 1px #ffffff;
+            width: 100%;
+            height: 200px;
+            display: flex;
+            background-color: black;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            justify-content: space-around;
+            align-items: center;
+    .texto-secundario{
+        text-align: center;
+        font-weight: lighter;
+        font-size: xx-large;
+        color: #ffffff ;
+        letter-spacing: 0.3em;
+                    }
+                }           
+}
+
+.container{
+    .row{
+        .secundario{
+            border: solid 1px #ffffff;
+            width: 100%;
+            height: 200px;
+            display: flex;
+            background-color: black;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            justify-content: space-around;
+            align-items: center;
+            .col{
+                .texto-terciario{
+                    text-align: center;
+                    font-weight: lighter;
+                    font-size: x-large;
+                    color: #ffffff ;
+                    margin-top: 100px;
+                    margin-bottom: 100px;
+                }
+            }
+        }
+    }
+}
+
