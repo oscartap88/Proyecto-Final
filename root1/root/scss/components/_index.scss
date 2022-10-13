@@ -1,13 +1,17 @@
+@import '../base/variables';
+@import '../base/listas';
+@import '../base/mapas';
+
 .tituloSlogan{
-    font-family: Dosis,Arial,sans-serif;
-    margin: 0;
-    position: relative;
-    font-size: 20px;
-    letter-spacing: 0.2em;
-    font-weight: 400;
-    text-transform: uppercase;
-    line-height: 1.8;
-    opacity: .9;
+    font-family: map-get($font-slogan,font-family);
+    margin: map-get($font-slogan, margin );
+    position: map-get($font-slogan, position );
+    font-size: map-get($font-slogan,font-size);
+    letter-spacing: map-get($font-slogan,letter-spacing);
+    font-weight: map-get($font-slogan,font-weight);
+    text-transform: map-get($font-slogan, text-transform );
+    line-height: map-get($font-slogan ,line-height );
+    opacity: map-get($font-slogan , opacity);
     }
 
 .containers{
@@ -37,7 +41,7 @@
                 font-weight: 600;
                 p{
                     padding: 0 1rem;
-                    font-size: 16px;
+                    font-size: nth($font-size-generales,2);
                     font-weight: 300;
                     
                 }
@@ -50,7 +54,7 @@
     .texto-principal{
         text-align: center;
         font-weight: lighter;
-        font-size: x-large;
+        font-size: nth($font-size-generales,3);
         color: #ffffff ;
         margin-top: 30px;
         margin-bottom: 30px;
@@ -70,7 +74,7 @@
     .texto-secundario{
         text-align: center;
         font-weight: lighter;
-        font-size: xx-large;
+        font-size: nth($font-size-generales,4);
         color: #ffffff ;
         letter-spacing: 0.3em;
                     }
@@ -93,7 +97,7 @@
                 .texto-terciario{
                     text-align: center;
                     font-weight: lighter;
-                    font-size: x-large;
+                    font-size: nth($font-size-generales,3);
                     color: #ffffff ;
                     margin-top: 100px;
                     margin-bottom: 100px;

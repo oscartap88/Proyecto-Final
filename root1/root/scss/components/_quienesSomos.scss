@@ -1,3 +1,6 @@
+@import '../base/variables';
+@import '../base/listas';
+
 .animate__animated.animate__bounceInLeft{
     --animate-duration: 4s;
 }
@@ -10,14 +13,14 @@
     width: 80%;
     color: #ffffff ;
     font-weight: lighter;
-    font-size: x-large;
+    font-size: nth($font-size-generales,3);
     margin-top:7%;
     margin-bottom: 10%;
-    font-size: 19px;
+    font-size: nth($font-size-generales,2);
     .seccion-nosotros-principal{
         .seccion-nosotros-principal-n{
             margin-bottom: 10%;
-            font-size: 17px;
+            font-size: nth($font-size-generales,2);
             p{
                 margin-top: 3%;
                 margin-bottom: 5%;
@@ -30,8 +33,8 @@
     margin: 15% 0;
     color: #ffffff ;
     font-weight: lighter;
-    font-size: x-large;
+    font-size: nth($font-size-generales,3);
     text-align: center ;
-            font-size: 17px;
+            font-size: nth($font-size-generales,2);
             margin-bottom: 5%;
 }
