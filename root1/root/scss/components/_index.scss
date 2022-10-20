@@ -2,6 +2,8 @@
 @import '../base/listas';
 @import '../base/mapas';
 
+
+
 .tituloSlogan{
     font-family: map-get($font-slogan,font-family);
     margin: map-get($font-slogan, margin );
@@ -15,7 +17,7 @@
     }
 
 .containers{
-    width: 100%;
+    width: 95%;
     height: 430px;
     display:flex;
     flex-wrap:wrap;
@@ -52,12 +54,16 @@
 
 .container{
     .texto-principal{
+        width: 90%;
         text-align: center;
         font-weight: lighter;
         font-size: nth($font-size-generales,3);
         color: #ffffff ;
         margin-top: 30px;
         margin-bottom: 30px;
+        .span .logo{
+            letter-spacing: 20px;
+        }
     }
 }
 .container{
@@ -71,6 +77,7 @@
             margin-bottom: 100px;
             justify-content: space-around;
             align-items: center;
+            overflow: hidden;
     .texto-secundario{
         text-align: center;
         font-weight: lighter;
@@ -78,7 +85,8 @@
         color: #ffffff ;
         letter-spacing: 0.3em;
                     }
-                }           
+                } 
+                     
 }
 
 .container{

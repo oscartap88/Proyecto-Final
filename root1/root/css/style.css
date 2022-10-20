@@ -60,7 +60,7 @@ body {
 }
 
 .tituloSlogan {
-  font-family: Dosis, Arial, sans-serif;
+  font-family: sans-serif;
   margin: 0;
   position: relative;
   font-size: 20px;
@@ -72,7 +72,7 @@ body {
 }
 
 .containers {
-  width: 100%;
+  width: 95%;
   height: 430px;
   display: flex;
   flex-wrap: wrap;
@@ -102,17 +102,21 @@ body {
 }
 .containers .card img h4 p {
   padding: 0 1rem;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 300;
 }
 
 .container .texto-principal {
+  width: 90%;
   text-align: center;
   font-weight: lighter;
   font-size: x-large;
   color: #ffffff;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+.container .texto-principal .span .logo {
+  letter-spacing: 20px;
 }
 
 .container .secundario {
@@ -125,6 +129,7 @@ body {
   margin-bottom: 100px;
   justify-content: space-around;
   align-items: center;
+  overflow: hidden;
 }
 .container .secundario .texto-secundario {
   text-align: center;
@@ -170,7 +175,7 @@ body {
   font-size: x-large;
   margin-top: 7%;
   margin-bottom: 10%;
-  font-size: 19px;
+  font-size: 17px;
 }
 .seccion-nosotros .seccion-nosotros-principal .seccion-nosotros-principal-n {
   margin-bottom: 10%;
@@ -183,12 +188,48 @@ body {
 
 .nosotros {
   margin: 15% 0;
+  width: 90%;
   color: #ffffff;
   font-weight: lighter;
   font-size: x-large;
   text-align: center;
   font-size: 17px;
   margin-bottom: 5%;
+}
+
+.container-uno {
+  width: 100%;
+  height: 430px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-content: center;
+}
+.container-uno .card-uno {
+  width: 330px;
+  height: 430px;
+  margin: 0 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px #857878;
+  text-align: center;
+  transition: all 0.25s;
+}
+.container-uno .card-uno:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px #857878;
+}
+.container-uno .card-uno img {
+  width: 320px;
+  height: 220px;
+}
+.container-uno .card-uno img h4 {
+  font-weight: 600;
+}
+.container-uno .card-uno img h4 p {
+  padding: 0 1rem;
+  font-size: 17px;
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=style.css.map */
